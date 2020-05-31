@@ -1,9 +1,9 @@
 {
     "bridge": {
         "name": "Homebridge 4147",
-        "username": "0E:1B:BC:94:41:42",
+        "username": "XX:XX:XX:XX:XX:XX",
         "port": 51847,
-        "pin": "671-07-323"
+        "pin": "XXX-XX-XXX"
     },
     "accessories": [
         {
@@ -18,7 +18,7 @@
         },
         {
             "name": "Pihole",
-            "auth": "cb84f01d29b96663a592fd0271c2b1143ab8e925e2540e1e03f9608aed8d2e32",
+            "auth": "...",
             "host": "localhost",
             "port": 80,
             "time": 0,
@@ -27,13 +27,13 @@
         },
         {
             "name": "Living room Temperature & Humidity",
-            "address": "E7:2E:00:D3:14:3F",
+            "address": "XX:XX:XX:XX:XX:XX",
             "temperatureOffset": 0,
             "humidityOffset": 0,
             "accessory": "Hygrotermograph",
             "mqtt": {
                 "url": "mqtt://test.mosquitto.org",
-                "temperatureTopic": "sensors/damagetemp1"
+                "temperatureTopic": "sensors/randomnamehere"
             }
         }
     ],
@@ -488,7 +488,7 @@
                     "ignoreTemperatureWhenOff": true,
                     "replaceAutoMode": "cool",
                     "mqttURL": "mqtt://test.mosquitto.org",
-                    "mqttTopic": "sensors/damagetemp1",
+                    "mqttTopic": "sensors/randomnamehere",
                     "temperatureUpdateFrequency": 10,
                     "defaultCoolTemperature": 23,
                     "minTemperature": 10,
@@ -541,7 +541,7 @@
                 {
                     "name": "Living room TV",
                     "ip": "192.168.1.114",
-                    "mac": "C0:48:E6:8B:28:7E",
+                    "mac": "XX:XX:XX:XX:XX:XX",
                     "keys": {
                         "SELECT": [
                             "KEY_ENTER"
@@ -572,7 +572,7 @@
                 {
                     "nameNow": "Outside Weather",
                     "service": "openweathermap",
-                    "key": "3502dfcebfc838779b437d1c39758182",
+                    "key": "...",
                     "locationCity": "Singapore, SG",
                     "language": "en",
                     "compatibility": "home",
