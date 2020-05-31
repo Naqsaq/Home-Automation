@@ -1,0 +1,20 @@
+{
+    "bridge": {
+        "name": "Homebridge 4147",
+        "username": "XX:XX:XX:XX:XX",
+        "port": 51847,
+        "pin": "XXX-XX-XXX"
+    },
+    "accessories": [],
+    "platforms": [
+        {
+            "platform": "config",
+            "name": "Config",
+            "port": 8581,
+            "auth": "none",
+            "theme": "dark-mode",
+            "tempUnits": "c",
+            "lang": "auto"
+        }
+    ]
+}
