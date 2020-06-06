@@ -55,7 +55,7 @@
                 }
             ]
         },
-		{
+	{
             "platform": "SamsungTizen",
             "name": "SamsungTizen",
             "app_list": true,
