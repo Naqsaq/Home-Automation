@@ -27,7 +27,7 @@
         },
         {
             "accessory": "Hygrotermograph", 
-			"name": "Living room Temperature & Humidity",
+            "name": "Living room Temperature & Humidity",
             "address": "XX:XX:XX:XX:XX:XX",
             "temperatureOffset": 0,
             "humidityOffset": 0,
