@@ -89,7 +89,7 @@
         },
         {
             "platform": "WeatherPlus",
-			"units": "si",
+            "units": "si",
             "interval": 5,
             "stations": [
                 {
